@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BirdPedia</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/bird.png">
+</head>
+
+<body>
+  <script src="wren.js" defer></script>
+  <!--wren 1-->
+  <div class="info" id="w1">
+    <div class="title">
+      <img src="https://www.allaboutbirds.org/guide/assets/photo/304473511-480px.jpg" />
+      <h1>Bewick's Wren</h1>
+    </div>
+    <div class="other">
+      <div>
+        <h3>Where to Find</h3>
+        <img src="https://www.allaboutbirds.org/guide/assets/photo/31755111-480px.jpg" />
+      </div>
+      <div>
+        <h3>How to Attract</h3>
+        <ul>
+          <p>Landscape with native shrubs like:</p>
+          <li>Willow</li>
+          <li>Mesquite</li>
+          <li>Elderberry</li>
+          <li>Chaparral</li>
+          <li>You could also keep a brush pile in your yard.</li>
+        </ul>
+        <!--Slideshow-->
+        <div class="show">
+          <img id="willow" class="mySlides" src="https://static.onecms.io/wp-content/uploads/sites/37/2021/01/07/large-colorful-willow-bush-63836d25.jpg">
+          <img id="mesquite" class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYNu0PbqsU9EfGUjJvpuMZvjz6mcsznNeauA&usqp=CAU">
+          <img id="elder" class="mySlides" src="https://wildseedproject.net/wp-content/uploads/2019/01/IMG_0252sm-400x267.jpg">
+          <img id="chap" class="mySlides" src="https://www.azplantlady.com/wp-content/uploads/2011/02/Non-flowering-Chaparral-Sage.jpg">
+          <div class="arr">
+            <button onclick="plusDivs(-1)">&#10094;</button>
+            <button onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        </div>
+        <!--End of slideshow code-->
+      </div>
+    </div>
+  </div>
+  <!--wren 2-->
+  <div class="info" id="w2">
+    <div class="title">
+      <img src="https://www.allaboutbirds.org/guide/assets/photo/304320881-480px.jpg" />
+      <h1 style="width: 225px;">Canyon Wren</h1>
+    </div>
+    <div class="other">
+      <div>
+        <h3>Where to Find</h3>
+        <img src="https://www.allaboutbirds.org/guide/assets/photo/38833891-480px.jpg" style="height:525px;"/>
+      </div>
+      <div>
+        <h3>Lifestyle</h3>
+        <ul>
+          <li>The Canyon Wren is a ground forager.</li>
+          <li>They live in clifs.</li>
+        </ul>
+        <!--Slideshow-->
+        <div class="show" style="margin-right:50%;">
+          <img class="mySlides2" src="https://www.allaboutbirds.org/guide/assets/photo/304320881-480px.jpg">
+        </div>
+        <!--End of slideshow code-->
+      </div>
+    </div>
+  </div>
+  <button class="home2" onclick="home()">Home</button>
+</body>
+
+</html>

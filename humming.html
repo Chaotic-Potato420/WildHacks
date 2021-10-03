@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BirdPedia</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/bird.png">
+</head>
+
+<body>
+  <script src="humming.js" defer></script>
+  <!--hummingbird 1-->
+  <div class="info" id="h1">
+    <div class="title">
+      <img src="https://www.allaboutbirds.org/guide/assets/photo/304275281-480px.jpg" style="margin-top:20px;"/>
+      <h1 style="left:35%;">Buff-bellied Hummingbird</h1>
+    </div>
+    <div class="other">
+      <div>
+        <h3>Where to Find</h3>
+        <img src="https://www.allaboutbirds.org/guide/assets/photo/32006181-480px.jpg" style="height:520px;width:475px"/>
+      </div>
+      <div>
+        <h3>Where to look</h3>
+        <ul>
+          <li>Flowers</li>
+          <li>Hummingbird feeders</li>
+          <li>Shruby areas</li>
+        </ul>
+        <!--Slideshow-->
+        <div class="show">
+          <img id="willow" class="mySlides" src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flower_jtca001.jpg" style="width:auto;">
+          <img id="mesquite" class="mySlides" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Sheringham_Park_1.JPG" style="width:400px;">
+          <div class="arr" style="right:-200px;">
+            <button onclick="plusDivs(-1)">&#10094;</button>
+            <button onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        </div>
+        <!--End of slideshow code-->
+      </div>
+    </div>
+  </div>
+  <!--hummingbird 2-->
+  <div class="info" id="h2">
+    <div class="title">
+      <img src="https://www.allaboutbirds.org/guide/assets/photo/68930221-480px.jpg" style="margin-top:20px;"/>
+      <h1 style="width: 400px; left:33%;">Costa's Hummingbird</h1>
+    </div>
+    <div class="other">
+      <div>
+        <h3>Where to Find</h3>
+        <img src="https://www.allaboutbirds.org/guide/assets/photo/32262251-480px.jpg" style="height:525px; width:475px;"/>
+      </div>
+      <div>
+        <h3>How to Attract</h3>
+        <ul>
+          <li>Sugar Water</li>
+          <ol>
+              <li>1 part sugar</li>
+              <li>5 parts water</li>
+              <li>NO food coloring</li>
+          </ol>
+          <li>Putting flowers in your yard</li>
+        </ul>
+        <!--Slideshow-->
+        <div class="show" style="margin-right:50%;">
+          <img class="mySlides2" src="https://www.allaboutbirds.org/guide/assets/photo/303895381-480px.jpg" style="width:auto;">
+        </div>
+        <!--End of slideshow code-->
+      </div>
+    </div>
+  </div>
+  <button class="home2" onclick="home()">Home</button>
+</body>
+
+</html>

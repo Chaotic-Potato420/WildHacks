@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BirdPedia</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="assets/bird.png">
+    </head>
+    <body>
+        <script src="script.js" defer></script>
+        <h1>BirdPedia</h1>
+        <h3>Here you can refine your search and learn all about any bird you want.</h3> 
+        <!--For the bird listings-->
+        <div class="birds" id="one">
+            <div>
+                <img src="https://www.allaboutbirds.org/guide/images/shape/icon-wrens.png" onclick="wrens()">
+                <p class="label">Wrens</p>
+            </div>
+            <div>
+                <img src="https://www.allaboutbirds.org/guide/images/shape/icon-sparrows.png" onclick="sparrows()">
+                <p class="label">Sparrows</p>
+            </div>
+            <div>
+                <img src="assets/icon-hummingbirds.jpg" onclick="hummers()">
+                <p class="label">Hummingbirds</p>
+            </div>
+            <div>
+                <img src="https://www.allaboutbirds.org/guide/images/shape/icon-finches.png" onclick="finches()">
+                <p class="label">Finches</p>
+            </div>
+        </div>
+        <!--Wrens-->
+        <div id="wrens">
+            <div id="whatW">
+                <h3>"Wrens are a family of brown passerine birds in the predominantly New World family Troglodytidae. The family includes 88 species divided into 19 genera."</h3>
+            </div>
+            <div>
+                <br><br><br><br><br><br>
+                <img src="https://www.allaboutbirds.org/guide/assets/photo/304473511-480px.jpg" onclick="w1()">
+                <p class="labels">Bewick's Wren</p>
+            </div>
+            <div>
+                <br><br><br><br><br><br>
+                <img src="https://www.allaboutbirds.org/guide/assets/photo/304320881-480px.jpg" onclick="w2()">
+                <p class="labels">Canyon Wren</p>
+            </div>
+        </div>
+        <!--Sparrows-->
+        <div id="sparrows">
+            <div id="whatS">
+                <h3>"Sparrows are a group of small passerine birds forming the family Passeridae. They are also known as True Sparrows."</h3>
+            </div>
+            <div>
+                <br><br><br><br><br>
+                <img src="https://www.allaboutbirds.org/guide/assets/photo/297719081-480px.jpg" onclick="s1()">
+                <p class="labels">American Tree Sparrow</p>
+            </div>
+            <div>
+                <br><br><br><br><br>
+                <img src="https://www.allaboutbirds.org/guide/assets/photo/297334421-480px.jpg" onclick="s2()">
+                <p class="labels">Chesnut-collard Longspur</p>
+            </div>
+        </div>
+        <!--Hummingbirds-->
+        <div id="hummers">
+            <div id="whatH">
+                <h3>"Hummingbirds are birds native to the Americas and comprise the biological family Trochilidae. They are small birds, measuring 7.5–13 cm in length."</h3>
+            </div>
+            <div>
+                <br><br><br><br><br><br>
+                <img src="https://www.allaboutbirds.org/guide/assets/photo/304275281-480px.jpg" onclick="h1()">
+                <p class="labels">Buff-bellied Hummingbird</p>
+            </div>
+            <div>
+                <br><br><br><br><br><br>
+                <img src="https://www.allaboutbirds.org/guide/assets/photo/68930221-480px.jpg" onclick="h2()">
+                <p class="labels">Costa's Hummingbird</p>
+            </div>
+        </div>
+        <!--Finches-->
+        <div id="finches">
+            <div id="whatF">
+                <h3>"Finches have stout conical bills adapted for eating seeds and nuts and often have colourful plumage."</h3>
+            </div>
+            <div>
+                <br><br><br><br><br>
+                <img src="https://www.allaboutbirds.org/guide/assets/photo/306359001-480px.jpg" onclick="f1()">
+                <p class="labels">Hoary Redpoll</p>
+            </div>
+            <div>
+                <br><br><br><br><br>
+                <img src="https://www.allaboutbirds.org/guide/assets/photo/67356151-480px.jpg" onclick="f2()">
+                <p class="labels">Pine Grosbeak</p>
+            </div>
+        </div>
+        <button class="home" id="home" onclick="home()">Home</button>
+        <p>All information and images are gathered from Cornell Lab of Ornithology and Wikipedia</p>
+    </body>
+</html>

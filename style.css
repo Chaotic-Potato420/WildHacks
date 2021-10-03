@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto&display=swap");
+
+* {
+  text-align: center;
+  background-color: #51a3a3;
+  color: #230c0f;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1000;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: xx-small;
+}
+
+.birds {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  display: flex;
+}
+
+div {
+  margin-right: 10px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #0b4f6c;
+  background-color: #f5f8de;
+}
+
+.labels {
+  padding-top: 4.5%;
+  padding-left: 8px;
+  font-size: medium;
+}
+.label {
+  font-size: medium;
+}
+
+#wrens,#sparrows,#hummers,#finches {
+  margin-left: 38%;
+}
+
+#whatW,#whatS,#whatH,#whatF {
+  text-align: left;
+  position: absolute;
+  width: 600px;
+}
+
+#whatW h3,#whatS h3,#whatH h3,#whatF h3{
+  position:absolute;
+  width: 600px;
+  right: 25%;
+}
+
+.home {
+  background-color: #f5f8de;
+  font-family: "Nunito", sans-serif;
+  width: 100px;
+  height: 50px;
+  font-size: large;
+  padding: 10px;
+  padding-left: 20px;
+  margin-left: 47%;
+}
+
+/*For the information pages*/
+.title {
+  margin-left: 40%;
+  justify-content: center;
+  display: flex;
+}
+
+.other{
+  margin-left: 10%;
+  margin-top: 15%;
+  position: absolute;
+  top: 30;
+  left: 30;
+  justify-content: center;
+  display: flex;
+}
+
+.other h3{
+  font-size: xx-large;
+}
+
+ul p{
+  font-size: x-large;
+  font-weight: 500;
+}
+
+ul, ul li{
+  font-family: "Nunito", sans-serif;
+  text-align: left;
+  font-size: x-large;
+}
+
+.home2 {
+  background-color: #f5f8de;
+  font-family: "Nunito", sans-serif;
+  width: 100px;
+  height: 50px;
+  font-size: large;
+  padding: 10px;
+  padding-left: 20px;
+  position: absolute;
+  bottom: -250px;
+}
+
+.other img{
+  width: auto;
+  height: auto;
+}
+
+.show img{
+  width: 275px;
+  height: 275px;
+  margin-left: 25%;
+}
+.arr{
+  position: absolute;
+  top: 70%;
+  right: 0px;
+  
+}
+.arr button{
+  background-color: #f5f8de;
+  width: 50px;
+  height: 50px;
+}
+
+.title img{
+  width: 200px;
+  height: 200px;
+  margin-right: 5px;
+}
+.title h1{
+  position: absolute;
+  top: -15px;
+  left: 39.5%;
+}

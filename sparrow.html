@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BirdPedia</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/bird.png">
+</head>
+
+<body>
+  <script src="sparrow.js" defer></script>
+  <!--sparrow 1-->
+  <div class="info" id="s1">
+    <div class="title">
+      <img src="https://www.allaboutbirds.org/guide/assets/photo/297719081-480px.jpg" style="margin-top:20px;"/>
+      <h1 style="left:35%;">American Tree Sparrow</h1>
+    </div>
+    <div class="other">
+      <div>
+        <h3>Where to Find</h3>
+        <img src="https://www.allaboutbirds.org/guide/assets/photo/31950061-480px.jpg" style="height:550px;"/>
+      </div>
+      <div>
+        <h3>How to Attract</h3>
+        <ul>
+          <li>American Tree Sparrows tend to eat out of bird feeders.</li>
+          <li>There are three different kinds of feeders tree sparrows like:</li>
+          <ol>
+              <li>Large Hoppers</li>
+              <li>Platform Feeders</li>
+              <li>Ground Feeders</li>
+          </ol>
+        </ul>
+        <!--Slideshow-->
+        <div class="show">
+          <img id="willow" class="mySlides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Seed_dispenser.jpg/330px-Seed_dispenser.jpg">
+          <img id="mesquite" class="mySlides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Bird_feeder_%28Private_garden%29.jpg/330px-Bird_feeder_%28Private_garden%29.jpg">
+          <img id="elder" class="mySlides" src="https://m.media-amazon.com/images/I/81q8PGoGJOL._AC_SL1500_.jpg">
+          <div class="arr">
+            <button onclick="plusDivs(-1)">&#10094;</button>
+            <button onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        </div>
+        <!--End of slideshow code-->
+      </div>
+    </div>
+  </div>
+  <!--sparrow 2-->
+  <div class="info" id="s2">
+    <div class="title">
+      <img src="https://www.allaboutbirds.org/guide/assets/photo/297334421-480px.jpg" style="margin-top:20px;"/>
+      <h1 style="width: 400px; left:33%;">Chesnut-collard Longspur</h1>
+    </div>
+    <div class="other">
+      <div>
+        <h3>Where to Find</h3>
+        <img src="https://www.allaboutbirds.org/guide/assets/photo/31753621-480px.jpg" style="height:525px;"/>
+      </div>
+      <div>
+        <h3>Where to Look</h3>
+        <ul>
+          <li>Look where grass is short.</li>
+          <li>Look in areas that have been recently burnt.</li>
+          <li>Finding one means you will probably find multiple, don't scare them.</li>
+        </ul>
+        <!--Slideshow-->
+        <div class="show" style="margin-right:50%;">
+          <img class="mySlides2" src="https://www.allaboutbirds.org/guide/assets/photo/70148641-480px.jpg">
+        </div>
+        <!--End of slideshow code-->
+      </div>
+    </div>
+  </div>
+  <button class="home2" onclick="home()">Home</button>
+</body>
+
+</html>

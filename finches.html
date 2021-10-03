@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BirdPedia</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/bird.png">
+</head>
+
+<body>
+  <script src="finches.js" defer></script>
+  <!--finch 1-->
+  <div class="info" id="f1">
+    <div class="title">
+      <img src="https://www.allaboutbirds.org/guide/assets/photo/306359001-480px.jpg" style="margin-top:20px;"/>
+      <h1 style="left:38%;width:250px">Hoary Redpoll</h1>
+    </div>
+    <div class="other">
+      <div>
+        <h3>Where to Find</h3>
+        <img src="https://www.allaboutbirds.org/guide/assets/photo/32312161-480px.jpg" style="height:520px;width:475px"/>
+      </div>
+      <div>
+        <h3>How to Find</h3>
+        <ul>
+          <p>Hoary Repolls are tricky to find, they only come to bird feeders during irruption years, but only if there is thistle. So...</p>
+          <li>Keep thistle in your feeders</li>
+          <li>And get some luck!</li>
+        </ul>
+        <!--Slideshow-->
+        <div class="show">
+          <img id="willow" class="mySlides" src="https://www.allaboutbirds.org/guide/assets/photo/67277561-480px.jpg" style="width:auto;">
+          <img id="mesquite" class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStWSCMnM9sNk6ZZxE_OA74t2ptjunogwYEXA&usqp=CAU" style="width:400px;">
+          <div class="arr">
+            <button onclick="plusDivs(-1)">&#10094;</button>
+            <button onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        </div>
+        <!--End of slideshow code-->
+      </div>
+    </div>
+  </div>
+  <!--finch 2-->
+  <div class="info" id="f2">
+    <div class="title">
+      <img src="https://www.allaboutbirds.org/guide/assets/photo/67356151-480px.jpg" style="margin-top:20px;"/>
+      <h1 style="width: 400px; left:33%;">Pine Grosbeak</h1>
+    </div>
+    <div class="other">
+      <div>
+        <h3>Where to Find</h3>
+        <img src="https://www.allaboutbirds.org/guide/assets/photo/31914111-480px.jpg" style="height:525px; width:475px;"/>
+      </div>
+      <div>
+        <h3>How to Attract</h3>
+        <ul>
+          <li>There are three types of feeders</li>
+          <ol>
+              <li>Tube Feeders</li>
+              <li>Platform Feeders</li>
+              <li>Large Hopper Feeders</li>
+          </ol>
+          <li>Fill those feeders with hulled seeds or black oil sunflower seeds</li>
+        </ul>
+        <!--Slideshow-->
+        <div class="show" style="margin-left:1px;">
+          <img class="mySlides2" src="https://www.allaboutbirds.org/guide/assets/photo/306166811-480px.jpg" style="width:auto;">
+        </div>
+        <!--End of slideshow code-->
+      </div>
+    </div>
+  </div>
+  <button class="home2" onclick="home()">Home</button>
+</body>
+
+</html>
